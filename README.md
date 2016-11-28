@@ -22,4 +22,3 @@ ESLint with React linting options have been enabled.
 ```
 npm run lint
 ```
-
