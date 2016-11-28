@@ -1,4 +1,4 @@
-# React ES6 Webpack Boilerplate
+# Movies Catalog Project
 
 Movies catalog app project with the following technologies:
 * [React](https://github.com/facebook/react)
