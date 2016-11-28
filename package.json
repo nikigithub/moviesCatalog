@@ -1,12 +1,16 @@
 {
-  "name": "movies-catalog",
+  "name": "react-es6-webpack-boilerplate",
   "version": "4.0.0",
-  "description": "Movies catalog app powered by React with ES6 (Babel) and Hot reloader using Webpack.",
+  "description": "Boilerplate for kick starting a React Project with ES6 (Babel) and Hot reloader using Webpack.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "build": "./node_modules/.bin/cross-env BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
     "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasanthk/react-es6-webpack-boilerplate.git"
   },
   "keywords": [
     "react",
@@ -14,8 +18,12 @@
     "babel",
     "webpack"
   ],
-  "author": "Nikita Maslennikov (http://www.nickybutter.com)",
+  "author": "Vasanth Krishnamoorthy (http://www.vasanthk.com)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasanthk/react-es6-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vasanthk/react-es6-webpack-boilerplate",
   "dependencies": {
     "babel-runtime": "^6.3.19",
     "bluebird": "^3.4.6",
